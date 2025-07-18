@@ -38,44 +38,40 @@ header h1 {
     color: #331a00;
   }
 
+  /* Marrom claro */
+  .marrom-claro #texto {
+    background-color: #d2b48c; 
+    color: #3b2a1a;
+  }
+  
+  /* Amarelo */
+  .amarelo #texto {
+    background-color: #fff9c4; 
+    color: #333300;
+  }
 
-  /* NAO USADOS AINDA */
+  /* Verde água */
+  .verde-agua #texto {
+    background-color: #66cdaa; 
+    color: #003322;
+  }
+
+  /* Verde claro */
+  .verde-claro #texto {
+    background-color: #90ee90; 
+    color: #003300;
+  }
+  
+  /* Roxo */
+  .roxo #texto {
+    background-color: #9370db; 
+    color: #1e0033;
+  }
 
   /* Azul escuro */
   .azul-escuro #texto {
   background-color: #003366; 
   color: #e0e0e0;
-}
-
-/* Marrom claro */
-.marrom-claro #texto {
-  background-color: #d2b48c; 
-  color: #3b2a1a;
-}
-
-
-/* Amarelo */
-.amarelo #texto {
-  background-color: #fff9c4; 
-  color: #333300;
-}
-
-/* Verde água */
-.verde-agua #texto {
-  background-color: #66cdaa; 
-  color: #003322;
-}
-
-/* Verde claro */
-.verde-claro #texto {
-  background-color: #90ee90; 
-  color: #003300;
-}
-
-/* Roxo */
-.roxo #texto {
-  background-color: #9370db; 
-  color: #1e0033;
 }
 
 /* Azul claro */
@@ -84,13 +80,112 @@ header h1 {
   color: #002233;
 }
 
+/* Botão da homepage personalizado com as cores temas */
 
+/* Rosa */
+.rosa .btn-home img {
+  background-color: #ffb6c1;
+  color: #330014;
+}
+
+.rosa .btn-home img:hover {
+  background-color: #e599ac;
+}
+
+/* Azul neutro */
+.azul-neutro .btn-home img {
+  background-color: #6699cc;
+  color: #001a33;
+}
+
+.azul-neutro .btn-home img:hover {
+  background-color: #4d80b3; 
+}
+
+/* Laranja */
+.laranja .btn-home img {
+  background-color: #ffa500;
+  color: #331a00;
+}
+
+.laranja .btn-home img:hover {
+  background-color: #e69500;
+}
+
+/* Marrom claro */
+.marrom-claro .btn-home img {
+  background-color: #d2b48c;
+  color: #3b2a1a;
+}
+
+.marrom-claro .btn-home img:hover {
+  background-color: #bfa07a;
+}
+
+/* Amarelo */
+.amarelo .btn-home img {
+  background-color: #fff9c4;
+  color: #333300;
+}
+
+.amarelo .btn-home img:hover {
+  background-color: #e6e09c;
+}
+
+/* Verde água */
+.verde-agua .btn-home img {
+  background-color: #66cdaa;
+  color: #003322;
+}
+
+.verde-agua .btn-home img:hover {
+  background-color: #5cb89a;
+}
+
+/* Verde claro */
+.verde-claro .btn-home img {
+  background-color: #90ee90;
+  color: #003300;
+}
+
+.verde-claro .btn-home img:hover {
+  background-color: #7ed87e;
+}
+
+/* Roxo */
+.roxo .btn-home img {
+  background-color: #9370db;
+  color: #1e0033;
+}
+
+.roxo .btn-home img:hover {
+  background-color: #7a5bc2;
+}
+
+/* Azul escuro */
+.azul-escuro .btn-home img {
+  background-color: #003366;
+  color: #e0e0e0;
+}
+
+.azul-escuro .btn-home img:hover {
+  background-color: #002244;
+}
+
+/* Azul claro */
+.azul-claro .btn-home img {
+  background-color: #add8e6;
+  color: #002233;
+}
+
+.azul-claro .btn-home img:hover {
+  background-color: #94c6d4;
+}
 
 /* botao da homepage*/
 
 .btn-home img {
   margin-top: 16px;
-  background-color: #060541;
   border-radius: 8px;
   padding: 8px;
   width: 48px;
@@ -102,7 +197,6 @@ a, button {
 }
 
 .btn-home img:hover {
-  background-color: #e0b000;
   transform: scale(1.05);
   transition: 0.3s ease;
 }
@@ -182,7 +276,7 @@ footer {
   padding: 8px;
 }
 
-/* Responsividade( peguei do chatgpt pq n sei fazer isso daqui)*/
+/* Responsividade(peguei do chatgpt pq n sei fazer isso daqui)*/
 
 @media (min-width: 600px) {
   .grid-principal {
